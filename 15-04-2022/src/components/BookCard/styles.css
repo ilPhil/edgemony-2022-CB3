@@ -1,0 +1,22 @@
+.BookCard__container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.BookCard__img {
+    max-width: 300px;
+    height: 300px;
+    object-fit: contain;
+    margin: 24px 0px;
+    border-radius: 16px;
+}
+
+.BookCard__description {
+    overflow: hidden;
+    height: 115px;
+}
